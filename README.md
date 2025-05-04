@@ -1,11 +1,10 @@
-IMPORTANT: Use IntelliJ IDE and download "lombok" plugin
+IMPORTANTE: Utiliza el IDE IntelliJ y descarga el plugin de lombok
 
 
 //PRODUCER
 
 Este programa es una aplicación Spring Boot que utiliza Apache Kafka para enviar mensajes a 
 un "topic" (un canal de comunicación en Kafka). Aquí te explico las partes principales:
-
 
 	1.- Configuración de Kafka (KafkaAdminConfig):
 -Configura un cliente administrador de Kafka (KafkaAdmin) para gestionar recursos de Kafka.
@@ -26,9 +25,6 @@ Flujo de trabajo:
 2.- El controlador (StringProducerResource) recibe el mensaje y lo pasa al servicio (StringProducerService).
 3.- El servicio envía el mensaje al "topic" str-topic en Kafka.
 4.- Kafka distribuye el mensaje a las particiones del "topic".
-
-
-
 
 
 CONSUMER
