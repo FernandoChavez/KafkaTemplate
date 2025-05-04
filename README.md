@@ -1,3 +1,6 @@
+IMPORTANT: Use IntelliJ IDE and download "lombok" plugin
+
+
 //PRODUCER
 
 Este programa es una aplicación Spring Boot que utiliza Apache Kafka para enviar mensajes a 
